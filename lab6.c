@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 int main(void) {
     int i;
@@ -16,14 +16,13 @@ int main(void) {
 
     //TASK 2
     int *mass;
-    mass = (int *) malloc(4 * sizeof(int));
+    mass = (void*) malloc(4 * sizeof(int));
     for (i = 0; i < 4; i++)
         scanf("%d", &mass[i]);
     for (i = 0; i < 4; i++)
         printf("%d ", mass[i]);
     free(mass);
 }
-
 
 
 
