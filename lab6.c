@@ -26,7 +26,8 @@ int main(void) {
         printf("%d ", mass[i]);
     }
     free(mass);
-}
+} //bebra
+
 
 
 
