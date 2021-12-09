@@ -5,7 +5,7 @@ int main(void)
 {
     //1 задание
     printf("Task 1: \n");
-    int num;
+    num;
     printf("//input oct-number\n");
     scanf("%o", &num);
     printf("%o \n", num);
