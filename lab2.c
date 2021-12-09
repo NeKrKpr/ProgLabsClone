@@ -14,5 +14,5 @@ int main(void)
     sinz2 = sin((5*M_PI)/4 + (3*alpha)/2);
     cosz2 = cos((5*M_PI)/4 + (3*alpha)/2);
     z2 = cosz2/sinz2;
-    printf("z1 is %f, z2 if %f\n", z1, z2);
+    printf(z1 is %f, z2 if %f\n", z1, z2);
 }
