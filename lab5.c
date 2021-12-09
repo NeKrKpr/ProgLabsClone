@@ -3,7 +3,7 @@
 int main(void) {
     int i, j;
     //TASK1
-    int mass1[7] = {0, 3, 5, 7, 11, 13};
+    int mass1 = {0, 3, 5, 7, 11, 13};
     for (i = 0; i < 7; i++){
         printf("%d ", mass1[i]);
     }
