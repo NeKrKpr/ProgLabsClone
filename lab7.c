@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 enum Paints {
     Aquarelle = 1,
     Oil,
